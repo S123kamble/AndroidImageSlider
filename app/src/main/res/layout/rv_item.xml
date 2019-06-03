@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:orientation="vertical">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/Question1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Q1.Question to be asked.Some static question" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/Question2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Q2.Question to be asked.Some static question" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/Question3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Q3.Question to be asked.Some static question" />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/Question4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Q4.Question to be asked.Some static question" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/video_player"
+            android:src="@drawable/video"/>
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginLeft="50dp"
+                android:id="@+id/a"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="a.option 1"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginRight="90dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:id="@+id/b"
+                android:layout_alignParentRight="true"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="option 2"/>
+
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/a"
+                android:text="option 3"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"/>
+            <TextView
+                android:layout_marginRight="90dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/b"
+                android:id="@+id/d"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="NOTA"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
